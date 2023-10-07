@@ -1,6 +1,8 @@
 #include <iostream>
 #include "matriz.h"
 #include <fstream>
+
+#include <unistd.h> // Necesario para sleep
 using namespace std;
 Matriz::Matriz(){
     this->n = 0;
@@ -99,5 +101,6 @@ void Matriz::guardarArchivo(){
 }
 void Matriz::mostrarGrafo(){
     system("dot -Tpng grafo.dot -o grafo.png");
-    system("nohup display grafo.png &"); 
+    system("nohup display grafo.png &");
+    sleep(1); //Espera 1 segundos
 }
