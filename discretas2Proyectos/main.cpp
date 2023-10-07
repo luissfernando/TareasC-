@@ -9,4 +9,3 @@ int main(){
     r1.mostrarGrafo();
     //r1.liberarEspac();
 }
-//prueba para otra rama
