@@ -2,6 +2,10 @@
 #include "matriz.h"
 #include <fstream>
 using namespace std;
+Matriz::Matriz(){
+    this->n = 0;
+    this->nAristas = 0;
+}
 Matriz::Matriz(int n){
     this->n = n;
     this->nAristas = 0;

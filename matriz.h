@@ -4,6 +4,7 @@ class Matriz{
 
     public:
         Matriz(int n);
+        Matriz();
         void reservarEspac();
         void liberarEspac();
         void llenarCeros();
