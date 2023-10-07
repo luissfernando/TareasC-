@@ -19,6 +19,4 @@ class Matriz{
 
         //grafo
         void mostrarGrafo();
-
-        void menu();
 };

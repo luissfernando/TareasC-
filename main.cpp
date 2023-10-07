@@ -1,7 +1,10 @@
 #include <iostream>
 #include "matriz.h"
 int main(){
-    Matriz r1(3);
+    int nodos;
+    std::cout<<"ingrese el tamaño de nodos del grafo : ";
+    std::cin>>nodos;
+    Matriz r1(nodos);
     r1.reservarEspac();
     r1.agregarAristas();
     r1.mostrarMatriz();
@@ -9,4 +12,3 @@ int main(){
     r1.mostrarGrafo();
     //r1.liberarEspac();
 }
-//prueba para otra rama

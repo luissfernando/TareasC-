@@ -82,13 +82,14 @@ void Matriz::guardarArchivo(){
         f << " graph A{" << endl;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if(M[i][j] == 1){
-                    f << i+1 << "--"<<j+1<<endl;
+                if(i>=j){
+                    if(M[i][j] == 1){
+                        f << i+1 << "--"<<j+1<<endl;
+                    }
                 }
             }
         }
         f<<"}"<<endl;
-        
     }
     f.close();
 }
