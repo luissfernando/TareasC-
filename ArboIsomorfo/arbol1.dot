@@ -1,0 +1,4 @@
+digraph Binario {
+A -> B;
+B -> C;
+}
