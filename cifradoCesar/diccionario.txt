@@ -1,0 +1,17 @@
+DICCIONARIO
+el
+la
+las
+los
+ella
+yo
+tu 
+me
+le
+nos
+usted
+bien
+si
+no
+nos
+tampoco
